@@ -9,7 +9,7 @@ main()
     int min = name[0];
     int max = name[0];
     int sum = 0;
-    int num = (sizeof(name) / sizeof(name[0])); //Количество элементов массива
+    int num = (sizeof(name) / sizeof(name[0]));
 
     for (int i = 0; i < num; ++i) {
         if (name[i] > max)
